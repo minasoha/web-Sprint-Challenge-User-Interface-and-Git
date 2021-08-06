@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML uses elements that describe their meaning and not just their presentation. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+block displays an element on a new line taking the whole width. Inline only takes the content's width without starting a new line. 
+
 3. What are the 4 areas of the box model?
+
+the content edge, padding edge, border edge, and margin edge.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The property will work on Cross-axis. 
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git keeps a history of changes made to the files while also allowing a team of developers to collaborate and merge their work. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,11 +60,11 @@ You are expected to be able to answer all these questions. Your responses contri
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [X] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -86,10 +96,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Copy and paste your home page navigation and header into the about page
+* [X] Update the header image with the about page image
+* [X] Link the `Home` navigation item back to the `index.html` page.
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

@@ -35,9 +35,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     top: 0;
-    /* width: 100%; */
     text-decoration: none;
-    /* margin: 2%; */
     width: 800px;
     margin: 2% auto;
 }
