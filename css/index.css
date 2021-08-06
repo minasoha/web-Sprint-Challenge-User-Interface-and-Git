@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -31,6 +30,33 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/* Header */
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+    /* width: 100%; */
+    text-decoration: none;
+    /* margin: 2%; */
+    width: 800px;
+    margin: 2% auto;
+}
+.top-section a{
+    color: black;
+    padding: 1vh;
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 1.2vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.top-image {
+    padding: 2% 0;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -143,4 +169,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Box colors */
+#b1 {
+    background-color: teal;
+}
+#b2 {
+    background-color: gold;
+}
+#b3 {
+    background-color: cadetblue;
+}
+#b4 {
+    background-color: coral;
+}
+#b5 {
+    background-color: crimson;
+}
+#b6 {
+    background-color: forestgreen;
+}
+#b7 {
+    background-color: darkorchid;
+}
+#b8 {
+    background-color: hotpink;
+}
+#b9 {
+    background-color: indigo;
+}
+#b10 {
+    background-color: dodgerblue;
+}
+
+
+/*                        ABOUT PAGE                        */
+
+.about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+ hr {
+    border-top: 1px dashed black;
+    border-bottom: transparent; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.about h2{
+    padding: 2% 2%;
+    margin-bottom: 0;
+}
+.about p{
+    padding: 2%;
+
+}
+.main-about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+
+}
+.text-section {
+    height: 460px;
+    margin-right: 20px;
+    flex: 1;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+.text-section h2 {
+    padding: 2% 0;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+.text-section p {
+    font-size: large;
+    padding: 2% 0 2% 0;
+    text-align: left;
+}
+.text-section button {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    padding: 3% 5% 3% 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.bottom-text h2{
+    padding: 2% 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.bottom-text p{
+    font-size: 1.0rem;
+    padding: 2% 0 2% 0%;
+    text-align: left;
+    margin-bottom: 5%;
 }
